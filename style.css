@@ -1,0 +1,181 @@
+body {
+  background-color: lightgray;
+}
+.palabra{
+  border:#0A3871;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px #050505);
+  
+}
+.inputPalabra {
+  resize: none;
+  color: #0A3871;
+  background: lightgrey;
+  position: absolute;
+  left: 240px;
+  top: 200px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  border-radius: 32px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.inputClave{
+position: absolute;
+width: 400px;
+height: 680px;
+left: 1000px;
+top: 40px;
+
+background-image: url(./img/Muñeco.png);
+position: relative;
+background-repeat: no-repeat;
+background-position: 18px 40px;
+background-size:300px;
+border-radius: 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+
+text-align: center;
+
+
+color: #0A3871;
+
+}
+
+.imagen textarea {
+  padding-top: 20rem;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px #050505);
+}
+
+
+.logo {
+
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px; 
+
+}
+
+#div-aclaracion{
+  position: absolute;
+  left: 240px;
+  top: 720px;
+
+}
+
+.informacion{
+  font-size: 1em;
+  color: rgb(71, 70, 70);
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 240px;
+  top: 885px;
+
+}
+
+.button1 {
+
+  width: 328px;
+  height: 67px;
+
+  background: #0A3871;
+  border-radius: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px #050505)
+
+
+}
+
+.button2 {
+
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  width: 328px;
+  height: 67px;
+
+  background: #D8DFE8;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px #050505)
+
+}
+
+.btnCopiar{
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color:#0A3871;
+  position: absolute;
+  width: 336px;
+  height: 67px;
+  left: 1032px;
+  top: 885px;
+
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px #050505)
+
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid white;
+  background: lightgrey;
+  color:grey;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem; 
+}
+
+footer p{
+  
+  font-size: 1.5em;
+}

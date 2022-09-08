@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <script src="./js/script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img class="vector" src="./img/Vector.png" alt="Logo Alura">
+        </div>
+    </header>
+
+
+    <main>
+        <section class="palabra">
+
+            <textarea class="inputPalabra" id="inputPalabra" name="textarea" rows="10" cols="30"
+                placeholder="Ingrese el texto aquí"></textarea>
+
+            <div id="div-aclaracion">
+                <h6 class="informacion">* Solo letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="button">
+                <button class="button1" onclick="btnEncriptar()" id="btnEncriptar">ENCRIPTAR</button>
+                <button class="button2" onclick="btnDesencriptar()" id="btnDesencriptar">DESENCRIPTAR</button>
+            </div>
+        </section>
+
+        <section class="imagen">
+
+
+            <textarea class="inputClave" name="textarea"
+                placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+
+            <button class="btnCopiar" onclick="copiar()" id="btnCopiar" onclick="copiar">COPIAR</button>
+
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <p>&#169 Todos los derechos reservados - María Otero</p>
+    </footer>
+
+</body>
+
+
+
+</html>
