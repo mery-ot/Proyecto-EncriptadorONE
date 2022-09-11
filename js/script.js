@@ -48,7 +48,10 @@ function copiar(){
     inputClave.select(inputClave.value)
     navigator.clipboard.writeText(inputClave.value)
     inputClave.value = ""
-    alert("Texto copiado")
+    swal({
+        title: "Texto copiado!",
+      });
+   
 }
 
 
